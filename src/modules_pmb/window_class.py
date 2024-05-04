@@ -3,6 +3,8 @@ window_class.py
 
 Tkinter GUI window as a class.
 
+Part of the "Prank Messagebox" project.
+
 By OperaVaria, 2024.
 """
 
@@ -14,6 +16,7 @@ from platform import system
 class Window(tk.Tk):
     """Tkinter GUI window as a Python class.
        General purpose, multi-platform."""
+
     def __init__(self, title, geometry, resizable_x, resizable_y, background, start_maximized):
         """Creates a window object."""
         super().__init__()
