@@ -101,7 +101,6 @@ class GUI(ttk.Frame):
         self.lbl_text.set(RESPONSE_OTHER)
         # Call final state setup function.
         set_exit(self)
-        return
 
     def press_forced(self):
         """Actions when forced option is pressed."""
@@ -109,7 +108,6 @@ class GUI(ttk.Frame):
         self.lbl_text.set(RESPONSE_FORCED)
         # Call final state setup function.
         set_exit(self)
-        return
 
 
 def set_exit(gui):
@@ -117,7 +115,6 @@ def set_exit(gui):
     gui.btn_left.destroy()
     gui.btn_right.destroy()
     gui.btn_exit.grid(row=1, column=0, columnspan=2)
-    return
 
 
 # Launch app:
