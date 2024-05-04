@@ -1,4 +1,6 @@
 [MESSAGES CONTROL]
 disable=line-too-long,
         too-many-ancestors,
+        too-many-arguments,
         wrong-import-position
+
